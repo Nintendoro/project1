@@ -1,12 +1,5 @@
 #include <iostream>
 #include <string>
-string q{};
-string e{};
-string val{};
-
-string q2{};
-string e2{};
-string val2{};
 
 using namespace std;
 
@@ -21,7 +14,7 @@ int main(){
     cout << boolalpha << (val == e) << endl;
 
     string q2 = "What's 4 + 2 * 5";
-    string e2 = "30";
+    string e2 = "14";
     string val2{};
     
     cout << q2 << endl;
